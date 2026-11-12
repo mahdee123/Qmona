@@ -4,8 +4,9 @@ Read `AGENTS.md` and `docs/plan.md` first. This file records what is done, the c
 next action. Keep it free of secrets and private infrastructure details (public repository).
 
 ## Current state (2026-11-12)
-Backend and frontend are complete and verified locally. The release is ready to publish and deploy.
-**Blocked:** pushing to GitHub needs SSH authentication for the repository owner's account (see "Blockers").
+**Live.** The release is deployed and answering on `qmona.com`, `www.qmona.com` and `api.qmona.com`. Deployed release: commit `b0ac5c9`
+(the first push, `28ef61f`, was missing the seed JSON files because a `.gitignore` rule was too broad; found by the first image build and fixed).
+Remaining: the owner switches Cloudflare SSL/TLS to **Full (strict)**, rotates the credentials that were shared in chat, and rehearses a restore.
 
 ## Completed
 
@@ -50,16 +51,35 @@ partial updates, duplicate and honeypot inquiries, email failure and retry, CSV 
 - Installed the Cloudflare Origin Certificate files in the reverse proxy's ssl directory (key mode 600).
 - The reverse proxy was **not** reloaded and no site config was added yet; the health script showed the existing sites healthy before and after.
 
-## Not yet verified (honest limits)
-- **Docker images have not been built yet**: Docker cannot run on the development PC. They are built and health-checked on the server.
-- Upload survival across a container replacement is verified at the file-system level in tests and must be re-checked on the server.
-- The origin of visitor addresses behind Cloudflare → proxy → website → API (`TRUST_PROXY=2`) must be confirmed on the server.
-- Nothing is deployed or public yet.
+### Phase 10–13: publish, deploy, switch traffic, verify (2026-11-12)
+- Pushed `main` to GitHub over SSH. Cloned and checked out the release on the server, built both images there, both containers healthy.
+- First admin created with a generated password (delivered through a private file, then deleted); default content seeded
+  (no projects, testimonials, pricing, statistics or team members).
+- Gateway: site config installed, `nginx -t` passed, reloaded with the validated reload script. Health script now includes Qmona.
+- Smoke tests against the real domains (through Cloudflare):
 
-## Blockers
-- **GitHub push:** `ssh -T git@github.com` was rejected (`Permission denied (publickey)`) for the PC's key. The repository owner must add the
-  PC's public key to their GitHub account. Local work continues; this blocks phase 10 and therefore the server pulling the release.
+| Check | Result |
+|---|---|
+| `qmona.com`, `www`, `/services`, `/work`, `/about`, `/contact`, `/support`, `/blog`, `/privacy`, `/admin/login`, `sitemap.xml`, `robots.txt` | 200 |
+| Unknown path | 404; `/api/revalidate` from the internet → 404 (internal only) |
+| `api.qmona.com/api/v1/health` | healthy, database connected (Atlas, database `qmona`) |
+| Origin tested directly, bypassing Cloudflare | 200 on all three hostnames |
+| Admin sign-in, session cookie, CSRF, sign-out ends the session | pass |
+| Image upload, served from `api.qmona.com/media/...`, delete | pass |
+| Contact form → stored, notification email `sent`, duplicate submission detected | pass (test record deleted) |
+| Visitor address seen by the API (audit trail) | a real public address, not an internal Docker one (`TRUST_PROXY=2` is right) |
+| Backend container force-recreated | upload still served, admin session still valid, container healthy again |
+| Other sites (SilverGym, Dayflow) via the gateway health script | healthy before and after |
+
+## Limits and notes
+- **Cloudflare caches uploaded images**: a deleted image can keep showing from Cloudflare's edge for a while (the origin returns 404).
+  File names are random, so replacing an image always produces a new URL; no action needed.
+- `/terms` returns 404 until a Terms page is written in the admin (no legal text is invented; nothing links to it yet).
+- Backup/restore was documented but **not rehearsed**. Enable Atlas backups and test `mongorestore` into a separate database.
+- Cloudflare SSL/TLS mode **Full (strict)** is switched by the owner; traffic already works through Cloudflare with the origin certificate installed.
+- Credentials that were pasted into a chat (Atlas database password, Gmail app password) should be rotated; update the server env file and
+  restart the backend (`docker compose --env-file ../.env.production up -d --force-recreate backend`).
+- Projects, pricing, testimonials, statistics, team: unpublished until the agency verifies content (evidence rules).
 
 ## Next action
-1. Add the SSH key to GitHub, then push `main` and record the release commit here.
-2. Deploy as described in `docs/deploy/README.md`, record steps in `docs/deploy/changes.md`, smoke-test `qmona.com`.
+Owner: Cloudflare Full (strict), rotate the two credentials, sign in to `/admin`, change the generated password, add real content.

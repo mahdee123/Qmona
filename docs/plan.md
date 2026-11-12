@@ -18,11 +18,11 @@ MongoDB Atlas), run it with Docker Compose with uploads on a persistent host dir
 | 6 | Inquiries (public form, notification email, staff workflow, CSV export), dashboard, audit log, preview, revalidation | 3, 5 | inquiry/dashboard/audit tests pass; one real email sent | ✅ |
 | 7 | Seed script (`backend/scripts/seed`) with JSON data per area | 5 | seed test passes; public site renders from seeded data | ✅ |
 | 8 | Frontend adjustments and full local verification | 3–7 | frontend typecheck, lint, unit tests, build; Playwright browser tests against the running stack | ✅ |
-| 9 | Docker: backend image, `compose.yaml`, gateway site config, env templates | 8 | images build on the server; container healthchecks pass | ✅ files · ⏳ built on server |
-| 10 | Publish to GitHub (`main`) and record the release commit | 2–9 | `ssh -T git@github.com` authenticates; push succeeds; no secrets in history | ⛔ waiting for the GitHub SSH key |
-| 11 | Deploy: release clone, env file, uploads directory, build, start, create first admin, seed | 9, 10 | `docker compose ps` healthy; admin created; seeded | ⏳ |
-| 12 | Switch traffic: certificate, gateway config, reload, Cloudflare SSL *Full (strict)* | 11 | smoke test on the real domains; other sites still healthy | ⏳ |
-| 13 | Verify: smoke test on `qmona.com`, upload survives a container replacement, backup/restore notes | 12 | recorded in `docs/deploy/changes.md` | ⏳ |
+| 9 | Docker: backend image, `compose.yaml`, gateway site config, env templates | 8 | images build on the server; container healthchecks pass | ✅ (images built and healthy on the server) |
+| 10 | Publish to GitHub (`main`) and record the release commit | 2–9 | `ssh -T git@github.com` authenticates; push succeeds; no secrets in history | ✅ |
+| 11 | Deploy: release clone, env file, uploads directory, build, start, create first admin, seed | 9, 10 | `docker compose ps` healthy; admin created; seeded | ✅ |
+| 12 | Switch traffic: certificate, gateway config, reload, Cloudflare SSL *Full (strict)* | 11 | smoke test on the real domains; other sites still healthy | ✅ live · ⏳ Cloudflare Full (strict) is switched by the owner |
+| 13 | Verify: smoke test on `qmona.com`, upload survives a container replacement, backup/restore notes | 12 | recorded in `docs/deploy/changes.md` | ✅ smoke + upload survival · ⏳ backup/restore rehearsal |
 | 14 | Handover | 13 | summary of what changed, what passed, release commit, what is unverified | ⏳ |
 
 ## Deployment scope (approved)

@@ -5,3 +5,4 @@ What was actually done on the server, newest last. Placeholders replace real hos
 | Date | Release | Change | Verified |
 |---|---|---|---|
 | 2026-11-12 | — | Server preparation only: project directory, env file (mode 600), empty uploads directory, certificate files installed; stale files from an abandoned earlier attempt removed. Reverse proxy not reloaded; no site config added yet. | Existing sites healthy before and after (gateway health script) |
+| 2026-11-12 | `b0ac5c9` | First deployment: release cloned, images built, containers healthy; first admin created; default content seeded; site config installed in the reverse proxy and validated reload; health script and server notes updated (Qmona registered). An earlier push (`28ef61f`) missed the seed files and was replaced before anything was started. | Real domains: pages 200, API health, admin sign-in, upload, contact form + email, visitor IP, upload survives container replacement; SilverGym and Dayflow healthy |
