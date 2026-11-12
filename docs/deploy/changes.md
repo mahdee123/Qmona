@@ -4,4 +4,4 @@ What was actually done on the server, newest last. Placeholders replace real hos
 
 | Date | Release | Change | Verified |
 |---|---|---|---|
-| — | — | Nothing deployed yet. The previous (Django-based) attempt was never started and was removed before this release. | — |
+| 2026-11-12 | — | Server preparation only: project directory, env file (mode 600), empty uploads directory, certificate files installed; stale files from an abandoned earlier attempt removed. Reverse proxy not reloaded; no site config added yet. | Existing sites healthy before and after (gateway health script) |

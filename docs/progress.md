@@ -44,6 +44,12 @@ Origin rejection, login and inquiry rate limits, role checks on every management
 upload type sniffing / SVG sanitising / path safety / size limits / in-use protection, publication and confidentiality rules,
 partial updates, duplicate and honeypot inquiries, email failure and retry, CSV formula escaping, audit trail, seed idempotence.
 
+### Phase 11 (partly): server preparation, done 2026-11-12
+- Removed the unused leftovers of the earlier Django-era attempt (no containers or volumes existed for it).
+- Created the project directory with `.env.production` (mode 600, outside the release) and an empty `data/uploads` directory.
+- Installed the Cloudflare Origin Certificate files in the reverse proxy's ssl directory (key mode 600).
+- The reverse proxy was **not** reloaded and no site config was added yet; the health script showed the existing sites healthy before and after.
+
 ## Not yet verified (honest limits)
 - **Docker images have not been built yet**: Docker cannot run on the development PC. They are built and health-checked on the server.
 - Upload survival across a container replacement is verified at the file-system level in tests and must be re-checked on the server.
