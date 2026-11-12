@@ -1,0 +1,65 @@
+# Qmona production stack. Runs BEHIND the server's shared reverse proxy ("gateway"), so it publishes no host ports.
+#
+#   docker compose -f compose.yaml --env-file <path-to-.env.production> up -d --build
+#
+# - The database is MongoDB Atlas (MONGODB_URI in the env file); there is no database container.
+# - The shared Docker network "proxy" must already exist; the reverse proxy reaches the two containers by name.
+# - Secrets live in the env file OUTSIDE the release directory and are never baked into an image.
+# - Uploaded images live in a host directory (QMONA_UPLOADS_DIR) so they survive container replacement.
+# See docs/deploy/README.md for the full procedure.
+
+name: qmona
+
+services:
+  backend:
+    build:
+      context: ./backend
+    image: qmona-backend:${QMONA_RELEASE:-local}
+    container_name: qmona-backend
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 20s
+    env_file: ${QMONA_ENV_FILE:-../.env.production}
+    environment:
+      NODE_ENV: production
+      PORT: "4000"
+      UPLOAD_DIR: /data/uploads
+    volumes:
+      - ${QMONA_UPLOADS_DIR:-../data/uploads}:/data/uploads
+    networks: [proxy]
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:4000/api/v1/health >/dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # Baked into the Next.js build (rewrites and the next/image allow-list); rebuild after changing them.
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://qmona.com}
+        BACKEND_INTERNAL_URL: http://qmona-backend:4000
+        MEDIA_ORIGINS: ${MEDIA_ORIGINS:-https://api.qmona.com}
+    image: qmona-frontend:${QMONA_RELEASE:-local}
+    container_name: qmona-frontend
+    restart: unless-stopped
+    init: true
+    # Only the variables the website needs; it never receives database or mail credentials.
+    environment:
+      NODE_ENV: production
+      BACKEND_INTERNAL_URL: http://qmona-backend:4000
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://qmona.com}
+      MEDIA_ORIGINS: ${MEDIA_ORIGINS:-https://api.qmona.com}
+      REVALIDATE_SECRET: ${REVALIDATE_SECRET:?set REVALIDATE_SECRET in the env file}
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks: [proxy]
+
+networks:
+  proxy:
+    # Shared with the reverse proxy; created once on the server and never removed by this project.
+    external: true
+    name: proxy

@@ -1,0 +1,15 @@
+# Never send secrets, local build output or test artifacts into the image build context.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules
+.next
+test-results
+playwright-report
+tests
+coverage
+*.tsbuildinfo
+*.log
+.git

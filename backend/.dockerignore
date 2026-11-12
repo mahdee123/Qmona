@@ -1,0 +1,13 @@
+# Never send secrets, local data or tests into the image build context.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules
+dist
+data
+tests
+coverage
+*.log
+.git
