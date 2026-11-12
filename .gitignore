@@ -20,7 +20,7 @@ coverage/
 npm-debug.log*
 
 # Local runtime data and scratch space (excluded from releases)
-data/
+/data/
 tmp/
 backups/
 

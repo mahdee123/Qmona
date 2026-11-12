@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "saas-mvps",
+    "name": "SaaS & MVPs",
+    "icon_key": "rocket"
+  },
+  {
+    "slug": "erp-accounting-pos",
+    "name": "ERP, Accounting & POS",
+    "icon_key": "store"
+  },
+  {
+    "slug": "crm-hrm-inventory",
+    "name": "CRM, HRM & Inventory",
+    "icon_key": "users"
+  },
+  {
+    "slug": "live-streaming-voice-party",
+    "name": "Live Streaming & Voice Party Apps",
+    "icon_key": "radio"
+  },
+  {
+    "slug": "video-calling-communication",
+    "name": "Video Calling & Communication",
+    "icon_key": "video"
+  },
+  {
+    "slug": "social-creator-platforms",
+    "name": "Social & Creator Platforms",
+    "icon_key": "heart"
+  },
+  {
+    "slug": "gaming-entertainment",
+    "name": "Gaming & Entertainment",
+    "icon_key": "gamepad"
+  },
+  {
+    "slug": "gifts-coins-wallets-subscriptions",
+    "name": "Virtual Gifts, Coins, Wallets & Subscriptions",
+    "icon_key": "coins"
+  },
+  {
+    "slug": "live-commerce",
+    "name": "Live Commerce",
+    "icon_key": "shopping-cart"
+  },
+  {
+    "slug": "ai-applications",
+    "name": "AI Applications",
+    "icon_key": "bot"
+  },
+  {
+    "slug": "event-community-platforms",
+    "name": "Event & Community Platforms",
+    "icon_key": "calendar"
+  },
+  {
+    "slug": "admin-dashboards-integrations",
+    "name": "Admin Dashboards & Integrations",
+    "icon_key": "bar-chart"
+  }
+]

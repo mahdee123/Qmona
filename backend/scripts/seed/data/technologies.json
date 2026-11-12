@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "nextjs",
+    "name": "Next.js",
+    "category": "Frontend"
+  },
+  {
+    "slug": "react",
+    "name": "React",
+    "category": "Frontend"
+  },
+  {
+    "slug": "typescript",
+    "name": "TypeScript",
+    "category": "Language"
+  },
+  {
+    "slug": "tailwindcss",
+    "name": "Tailwind CSS",
+    "category": "Frontend"
+  },
+  {
+    "slug": "django",
+    "name": "Django",
+    "category": "Backend"
+  },
+  {
+    "slug": "python",
+    "name": "Python",
+    "category": "Language"
+  },
+  {
+    "slug": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database"
+  },
+  {
+    "slug": "docker",
+    "name": "Docker",
+    "category": "DevOps"
+  }
+]

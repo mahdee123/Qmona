@@ -1,0 +1,371 @@
+{
+  "home": {
+    "title": "Home",
+    "meta_title": "Qmona Agency — Product Design & Software Development",
+    "meta_description": "Qmona is a Bangladesh-based agency designing and building websites, SaaS platforms, business systems, mobile apps and AI products for teams worldwide.",
+    "sections": [
+      {
+        "section_type": "hero",
+        "variant": "centered",
+        "headline": "Product design & software\nfor ambitious teams",
+        "subheadline": "We design and build websites, SaaS platforms, business systems, mobile apps and AI products for startups and growing businesses.",
+        "content_data": {
+          "primary_cta": {
+            "label": "Start a Project",
+            "url": "/contact"
+          },
+          "secondary_cta": {
+            "label": "Explore Services",
+            "url": "/services"
+          },
+          "ticker_label": "What we build",
+          "show_capability_ticker": true,
+          "show_side_cards": true,
+          "show_trusted_by": true,
+          "trusted_by_label": "Trusted by",
+          "show_project_card": true
+        },
+        "animation_preset": "fade_up"
+      },
+      {
+        "section_type": "featured_project",
+        "variant": "default",
+        "headline": "",
+        "subheadline": "",
+        "content_data": {
+          "cta_label": "View Project"
+        }
+      },
+      {
+        "section_type": "impact",
+        "variant": "centered",
+        "label": "Impact",
+        "headline": "Qmona makes it simple,\nand delivers results.",
+        "content_data": {
+          "cta_title": "Have a product in mind?",
+          "cta_text": "Tell us what you're building and we'll suggest a practical way to ship it.",
+          "cta": {
+            "label": "Get Started",
+            "url": "/contact"
+          }
+        }
+      },
+      {
+        "section_type": "services",
+        "variant": "split",
+        "label": "Services",
+        "headline": "From idea to launch.\nWe handle the craft.",
+        "content_data": {
+          "cta": {
+            "label": "Start a Project",
+            "url": "/contact"
+          },
+          "open_first": true
+        }
+      },
+      {
+        "section_type": "projects",
+        "variant": "centered",
+        "label": "Projects",
+        "headline": "Here's what\nthe momentum looks like.",
+        "content_data": {
+          "limit": 6,
+          "show_sample_content": true,
+          "cta": {
+            "label": "View All Projects",
+            "url": "/work"
+          }
+        }
+      },
+      {
+        "section_type": "process",
+        "variant": "centered",
+        "label": "Process",
+        "headline": "A clear process.\nNo surprises.",
+        "subheadline": "Every engagement follows the same four stages, so you always know what happens next.",
+        "content_data": {
+          "cta_title": "Let's start building",
+          "cta_text": "Share your idea and we will help you shape the first version.",
+          "cta": {
+            "label": "Get Started",
+            "url": "/contact"
+          }
+        }
+      },
+      {
+        "section_type": "pricing",
+        "variant": "centered",
+        "label": "Pricing",
+        "headline": "Choose a plan.\nThat fits your needs.",
+        "subheadline": "Flexible plans designed to accelerate growth, with solutions that evolve with your business.",
+        "content_data": {
+          "show_sample_content": true,
+          "cta_title": "You focus on your business.\nWe build the product.",
+          "cta_text": "We design and build websites, apps and business systems that work for your team.",
+          "cta": {
+            "label": "Get Started",
+            "url": "/contact"
+          }
+        }
+      },
+      {
+        "section_type": "testimonials",
+        "variant": "centered",
+        "label": "Testimonials",
+        "headline": "We're loved.\nJust success stories.",
+        "content_data": {
+          "limit": 6,
+          "show_sample_content": true,
+          "cta_title": "You focus on your business.\nWe build the product.",
+          "cta_text": "Tell us what you need and we will reply with next steps.",
+          "cta_button": {
+            "label": "Get Started",
+            "url": "/contact"
+          },
+          "cta": {
+            "label": "View All Reviews",
+            "url": "/contact"
+          }
+        }
+      },
+      {
+        "section_type": "faq",
+        "variant": "split",
+        "label": "FAQ",
+        "headline": "Got a question?\nWe've got answers.",
+        "content_data": {
+          "side_title": "Still have a question?",
+          "side_text": "Send us a message and the team will get back to you by email.",
+          "cta": {
+            "label": "Contact Us",
+            "url": "/contact"
+          }
+        }
+      },
+      {
+        "section_type": "contact",
+        "variant": "split",
+        "label": "Contact",
+        "headline": "Tell us about\nyour project.",
+        "subheadline": "Have a product in mind or need guidance? Send us the details and we will reply by email.",
+        "content_data": {
+          "show_form": true
+        }
+      },
+      {
+        "section_type": "blog",
+        "variant": "default",
+        "label": "Blog",
+        "headline": "Insights & ideas,\nfrom the team.",
+        "content_data": {
+          "limit": 3,
+          "cta": {
+            "label": "Read More",
+            "url": "/blog"
+          }
+        }
+      },
+      {
+        "section_type": "cta_banner",
+        "variant": "light",
+        "headline": "Let's build something\nthat works.",
+        "subheadline": "Tell us about your idea, product or business challenge — we will help you plan the next step.",
+        "content_data": {
+          "primary_cta": {
+            "label": "Start a Project",
+            "url": "/contact"
+          },
+          "secondary_cta": {
+            "label": "Get Support",
+            "url": "/support"
+          },
+          "show_capability_ticker": true
+        }
+      }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "meta_title": "About Qmona Agency",
+    "meta_description": "Qmona is a product design and software development agency based in Dhaka, Bangladesh.",
+    "sections": [
+      {
+        "section_type": "page_hero",
+        "variant": "centered",
+        "label": "About",
+        "headline": "Design and engineering,\nunder one roof.",
+        "subheadline": "Qmona is a product design and software development agency based in Dhaka, Bangladesh.",
+        "content_data": {}
+      },
+      {
+        "section_type": "story",
+        "variant": "split",
+        "label": "Our story",
+        "headline": "Why Qmona exists",
+        "content_data": {
+          "body": "Good products need design and engineering to work as one. Qmona brings both together so startups, SaaS companies, agencies and businesses can go from idea to working product with a single partner — and keep improving it after launch.",
+          "points": [
+            "Product design and development in one team",
+            "Experience across web, mobile, business systems and AI",
+            "Working with local and international clients"
+          ],
+          "cta": {
+            "label": "See our services",
+            "url": "/services"
+          }
+        }
+      },
+      {
+        "section_type": "values",
+        "variant": "centered",
+        "label": "How we work",
+        "headline": "Principles we\nwork by.",
+        "content_data": {
+          "items": [
+            {
+              "title": "Clarity first",
+              "text": "Clear scope, clear communication and clear interfaces.",
+              "icon": "target"
+            },
+            {
+              "title": "Design and code together",
+              "text": "Designers and engineers solve problems side by side.",
+              "icon": "layers"
+            },
+            {
+              "title": "Honest estimates",
+              "text": "We scope carefully and tell you early when something changes.",
+              "icon": "handshake"
+            },
+            {
+              "title": "Built to last",
+              "text": "Maintainable code and documentation you can hand over.",
+              "icon": "shield"
+            }
+          ]
+        }
+      },
+      {
+        "section_type": "team",
+        "variant": "default",
+        "label": "Team",
+        "headline": "Meet the team.",
+        "content_data": {}
+      },
+      {
+        "section_type": "industries",
+        "variant": "default",
+        "label": "Industries",
+        "headline": "Industries we\nbuild for.",
+        "content_data": {
+          "cta": {
+            "label": "All industries",
+            "url": "/industries"
+          }
+        }
+      },
+      {
+        "section_type": "cta_banner",
+        "variant": "dark",
+        "headline": "You focus on your business.\nWe build the product.",
+        "subheadline": "Tell us what you need and we will reply with next steps.",
+        "content_data": {
+          "primary_cta": {
+            "label": "Start a Project",
+            "url": "/contact"
+          }
+        }
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "meta_title": "Services — Qmona Agency",
+    "meta_description": "Product design, website development, custom software, mobile apps, AI products and backend development.",
+    "sections": [
+      {
+        "section_type": "page_hero",
+        "variant": "centered",
+        "label": "Services",
+        "headline": "Everything you need\nto ship your product.",
+        "subheadline": "Six service groups covering design, development and ongoing improvement.",
+        "content_data": {}
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industries",
+    "meta_title": "Industries — Qmona Agency",
+    "meta_description": "Industries Qmona designs and builds digital products for.",
+    "sections": [
+      {
+        "section_type": "page_hero",
+        "variant": "centered",
+        "label": "Industries",
+        "headline": "Built for the way\nyour industry works.",
+        "subheadline": "The sectors and product categories we design and build for.",
+        "content_data": {}
+      }
+    ]
+  },
+  "work": {
+    "title": "Work",
+    "meta_title": "Work — Qmona Agency",
+    "meta_description": "Selected projects and case studies by Qmona Agency.",
+    "sections": [
+      {
+        "section_type": "page_hero",
+        "variant": "centered",
+        "label": "Work",
+        "headline": "Bold ideas,\nshipped with care.",
+        "subheadline": "Selected projects across design, web, mobile, business systems and AI.",
+        "content_data": {}
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "meta_title": "Blog — Qmona Agency",
+    "meta_description": "Articles and insights from the Qmona team.",
+    "sections": [
+      {
+        "section_type": "page_hero",
+        "variant": "centered",
+        "label": "Blog",
+        "headline": "Insights & ideas,\nfrom the team.",
+        "subheadline": "Notes on product design, development and building software that works.",
+        "content_data": {}
+      }
+    ]
+  },
+  "contact": {
+    "title": "Start a Project",
+    "meta_title": "Start a Project — Qmona Agency",
+    "meta_description": "Tell Qmona about your project. We reply by email.",
+    "sections": [
+      {
+        "section_type": "page_hero",
+        "variant": "centered",
+        "label": "Contact",
+        "headline": "Tell us about\nyour project.",
+        "subheadline": "Share a few details and we will get back to you by email.",
+        "content_data": {}
+      }
+    ]
+  },
+  "support": {
+    "title": "Support",
+    "meta_title": "Support — Qmona Agency",
+    "meta_description": "Existing Qmona clients can report an issue or request a change.",
+    "sections": [
+      {
+        "section_type": "page_hero",
+        "variant": "centered",
+        "label": "Support",
+        "headline": "How can we help?",
+        "subheadline": "Existing clients can report an issue or request a change here. No account needed.",
+        "content_data": {}
+      }
+    ]
+  }
+}

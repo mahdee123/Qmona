@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Discovery & Scoping",
+    "icon_key": "compass",
+    "description": "We learn about your goals, users and constraints, then agree on scope, priorities and a realistic plan.",
+    "deliverables": [
+      "Requirements summary",
+      "Scope & estimate",
+      "Project plan"
+    ]
+  },
+  {
+    "title": "Design & Prototyping",
+    "icon_key": "pen-tool",
+    "description": "We map the flows and design the interface, validating it with clickable prototypes before development.",
+    "deliverables": [
+      "User flows",
+      "UI design",
+      "Clickable prototype"
+    ]
+  },
+  {
+    "title": "Development & QA",
+    "icon_key": "code",
+    "description": "We build in short iterations with regular demos, testing as we go so issues are caught early.",
+    "deliverables": [
+      "Working builds",
+      "Progress demos",
+      "Test coverage"
+    ]
+  },
+  {
+    "title": "Launch & Ongoing Support",
+    "icon_key": "rocket",
+    "description": "We deploy, monitor and hand over — and stay on to maintain and improve the product if you need us.",
+    "deliverables": [
+      "Production launch",
+      "Documentation",
+      "Maintenance plan"
+    ]
+  }
+]

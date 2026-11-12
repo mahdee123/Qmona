@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "ui-ux-product-design",
+    "category": "design",
+    "icon_key": "palette",
+    "title": "UI/UX & Product Design",
+    "tagline": "Interfaces people understand on the first try.",
+    "short_description": "Research-informed UX, product design and design systems for web apps, SaaS dashboards and mobile products.",
+    "full_content": "We turn product ideas and existing workflows into clear, usable interfaces. Work typically starts with understanding your users and business goals, then moves through information architecture, wireframes, high-fidelity UI and interactive prototypes. For growing products we build design systems so new screens stay consistent and are fast to develop.",
+    "capabilities": [
+      "UX research & audits",
+      "Wireframes & user flows",
+      "High-fidelity UI design",
+      "Interactive prototypes",
+      "Design systems",
+      "Dashboard & admin UX"
+    ],
+    "deliverables": [
+      "Figma design files",
+      "Clickable prototype",
+      "Component library / design system",
+      "Developer hand-off specs"
+    ]
+  },
+  {
+    "slug": "website-development",
+    "category": "development",
+    "icon_key": "layout",
+    "title": "Website Development",
+    "tagline": "Fast, editable websites that represent you well.",
+    "short_description": "Marketing sites, landing pages and content-managed websites built for speed, SEO and easy editing.",
+    "full_content": "We design and build websites that load quickly, rank well and are simple for your team to update. That includes marketing websites, landing pages, multi-language sites and content-managed websites with custom admin panels, connected to the tools you already use.",
+    "capabilities": [
+      "Marketing websites",
+      "Landing pages",
+      "CMS & admin panels",
+      "Technical SEO",
+      "Performance optimisation",
+      "Analytics & integrations"
+    ],
+    "deliverables": [
+      "Responsive website",
+      "Content management setup",
+      "SEO metadata & sitemap",
+      "Deployment & hand-over"
+    ]
+  },
+  {
+    "slug": "custom-software-business-systems",
+    "category": "development",
+    "icon_key": "database",
+    "title": "Custom Software & Business Systems",
+    "tagline": "Software shaped around how your business actually runs.",
+    "short_description": "SaaS platforms, MVPs, ERP, accounting, POS, CRM, HRM and inventory systems built around your operations.",
+    "full_content": "We build web-based software for running and scaling a business: SaaS products and MVPs, ERP and accounting systems, point-of-sale, CRM, HRM and inventory management, plus the admin dashboards and role-based access that hold them together.",
+    "capabilities": [
+      "SaaS platforms & MVPs",
+      "ERP & accounting",
+      "POS & inventory",
+      "CRM & HRM",
+      "Role-based admin dashboards",
+      "Reporting & exports"
+    ],
+    "deliverables": [
+      "Working web application",
+      "Admin portal",
+      "Database design",
+      "Documentation & hand-over"
+    ]
+  },
+  {
+    "slug": "mobile-app-development",
+    "category": "development",
+    "icon_key": "smartphone",
+    "title": "Mobile App Development",
+    "tagline": "Mobile products built for real-time and everyday use.",
+    "short_description": "iOS and Android apps — from social, creator and live streaming apps to companion apps for your platform.",
+    "full_content": "We build mobile apps for consumer and business use, including social and creator platforms, live streaming and voice party apps, video calling and communication, live commerce and companion apps for existing web platforms — with features such as virtual gifts, coins, wallets and subscriptions.",
+    "capabilities": [
+      "iOS & Android apps",
+      "Live streaming & voice rooms",
+      "Video calling & chat",
+      "Virtual gifts, coins & wallets",
+      "Subscriptions & in-app purchases",
+      "Push notifications"
+    ],
+    "deliverables": [
+      "App store–ready builds",
+      "Admin & moderation tools",
+      "Backend & APIs",
+      "Release support"
+    ]
+  },
+  {
+    "slug": "ai-products-automation",
+    "category": "ai-automation",
+    "icon_key": "sparkles",
+    "title": "AI Products & Automation",
+    "tagline": "Practical AI that saves time and adds value.",
+    "short_description": "AI-powered applications, assistants and workflow automation integrated into your product or operations.",
+    "full_content": "We help teams put AI to practical use: AI-powered product features, assistants grounded in your own data, document processing, and automations that remove repetitive manual work between the tools you already use.",
+    "capabilities": [
+      "AI product features",
+      "Assistants & chat interfaces",
+      "Document processing",
+      "Workflow automation",
+      "Data pipelines",
+      "Model & API integration"
+    ],
+    "deliverables": [
+      "Prototype / proof of concept",
+      "Production integration",
+      "Monitoring & evaluation setup"
+    ]
+  },
+  {
+    "slug": "backend-api-integrations",
+    "category": "development",
+    "icon_key": "plug",
+    "title": "Backend, APIs & Ongoing Development",
+    "tagline": "Solid foundations and a team that stays with you.",
+    "short_description": "Backend systems, APIs and third-party integrations, plus ongoing development and maintenance after launch.",
+    "full_content": "We design and build the backend services and APIs that power web and mobile products, connect them to payment gateways and third-party platforms, and continue improving and maintaining products after launch as an ongoing development partner.",
+    "capabilities": [
+      "REST API design",
+      "Third-party & payment integrations",
+      "Database architecture",
+      "Cloud deployment",
+      "Maintenance & support",
+      "Dedicated ongoing development"
+    ],
+    "deliverables": [
+      "API documentation",
+      "Integration test coverage",
+      "Deployment pipeline",
+      "Monthly development plan"
+    ]
+  }
+]

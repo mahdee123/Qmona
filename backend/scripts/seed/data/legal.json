@@ -1,0 +1,77 @@
+{
+  "privacy": [
+    {
+      "type": "paragraph",
+      "text": "This notice explains what personal information the Qmona Agency website (qmona.com) collects and how it is used."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Information we collect"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you submit the Start a Project or Support form, we store the details you enter: your name, email address, and any optional details you choose to provide such as company, phone number, project information and your message. We also store the page the form was sent from, the time of submission, your IP address and browser user-agent to help prevent spam and abuse."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How we use it"
+    },
+    {
+      "type": "paragraph",
+      "text": "We use this information only to respond to your inquiry or support request, to manage our working relationship with you, and to protect the website against abuse. We do not sell your information."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Who can access it"
+    },
+    {
+      "type": "paragraph",
+      "text": "Submissions are stored in our database and are accessible only to authorised Qmona team members through a password-protected admin portal. A notification containing your submission may be sent to the agency's email inbox."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Retention and deletion"
+    },
+    {
+      "type": "paragraph",
+      "text": "We keep inquiry records for as long as needed to respond and to manage any resulting project. You can ask us to access, correct or delete your information at any time by emailing us."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cookies"
+    },
+    {
+      "type": "paragraph",
+      "text": "The public website does not use advertising or tracking cookies. A security cookie (CSRF token) is set when you submit a form to protect against cross-site request forgery."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Contact"
+    },
+    {
+      "type": "paragraph",
+      "text": "For privacy questions or requests, email [qmonaagency@gmail.com](mailto:qmonaagency@gmail.com)."
+    }
+  ],
+  "terms": [
+    {
+      "type": "callout",
+      "text": "Draft — these terms must be written and reviewed by the agency (and legal counsel) before publishing."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Use of this website"
+    },
+    {
+      "type": "paragraph",
+      "text": "Placeholder section. Replace with reviewed terms."
+    }
+  ]
+}

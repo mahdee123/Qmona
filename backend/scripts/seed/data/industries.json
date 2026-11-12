@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "saas-technology",
+    "name": "SaaS & Technology",
+    "icon_key": "cpu",
+    "description": "Software companies building and scaling digital products."
+  },
+  {
+    "slug": "retail-ecommerce",
+    "name": "Retail & E-commerce",
+    "icon_key": "shopping-cart",
+    "description": "Stores, brands and marketplaces selling online and in person."
+  },
+  {
+    "slug": "media-entertainment",
+    "name": "Media & Entertainment",
+    "icon_key": "film",
+    "description": "Streaming, creator, gaming and entertainment platforms."
+  },
+  {
+    "slug": "social-community",
+    "name": "Social & Community",
+    "icon_key": "users",
+    "description": "Communities, social networks and event platforms."
+  },
+  {
+    "slug": "finance-fintech",
+    "name": "Finance & Fintech",
+    "icon_key": "landmark",
+    "description": "Payments, wallets, accounting and financial operations."
+  },
+  {
+    "slug": "education",
+    "name": "Education",
+    "icon_key": "graduation-cap",
+    "description": "Learning platforms, schools and training providers."
+  },
+  {
+    "slug": "healthcare",
+    "name": "Healthcare",
+    "icon_key": "stethoscope",
+    "description": "Clinics, care providers and health-related services."
+  },
+  {
+    "slug": "logistics-operations",
+    "name": "Logistics & Operations",
+    "icon_key": "truck",
+    "description": "Distribution, inventory and field operations."
+  },
+  {
+    "slug": "professional-services",
+    "name": "Professional Services & Agencies",
+    "icon_key": "briefcase",
+    "description": "Agencies and service businesses needing internal tools or white-label delivery."
+  }
+]

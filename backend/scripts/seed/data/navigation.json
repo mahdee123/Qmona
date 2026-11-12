@@ -1,0 +1,61 @@
+{
+  "header": [
+    {
+      "label": "Services",
+      "url": "/services",
+      "badge": ""
+    },
+    {
+      "label": "Work",
+      "url": "/work",
+      "badge": ""
+    },
+    {
+      "label": "Industries",
+      "url": "/industries",
+      "badge": ""
+    },
+    {
+      "label": "About",
+      "url": "/about",
+      "badge": ""
+    },
+    {
+      "label": "Blog",
+      "url": "/blog",
+      "badge": ""
+    }
+  ],
+  "footer_primary": [
+    {
+      "label": "About us",
+      "url": "/about",
+      "badge": ""
+    },
+    {
+      "label": "Work",
+      "url": "/work",
+      "badge": ""
+    },
+    {
+      "label": "Industries",
+      "url": "/industries",
+      "badge": ""
+    },
+    {
+      "label": "Blog",
+      "url": "/blog",
+      "badge": ""
+    },
+    {
+      "label": "Support",
+      "url": "/support",
+      "badge": ""
+    },
+    {
+      "label": "Contact",
+      "url": "/contact",
+      "badge": ""
+    }
+  ]
+}

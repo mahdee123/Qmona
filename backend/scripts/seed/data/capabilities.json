@@ -1,0 +1,20 @@
+[
+  {
+    "value": "6",
+    "title": "Service groups",
+    "description": "Design, websites, custom software, mobile, AI and backend development in one team.",
+    "icon_key": "layers"
+  },
+  {
+    "value": "12",
+    "title": "Product categories",
+    "description": "From SaaS, ERP and POS to live streaming, live commerce and AI applications.",
+    "icon_key": "gem"
+  },
+  {
+    "value": "GMT+6",
+    "title": "Dhaka-based team",
+    "description": "Working with local and international clients across time zones.",
+    "icon_key": "globe"
+  }
+]

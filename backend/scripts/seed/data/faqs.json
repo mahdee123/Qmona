@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What kinds of products does Qmona build?",
+    "answer": "We design and build websites, SaaS platforms and MVPs, business systems such as ERP, accounting, POS, CRM, HRM and inventory, mobile apps (including live streaming, video calling, social and live commerce apps), AI products and automations, and the backends and APIs behind them."
+  },
+  {
+    "question": "Do you work with clients outside Bangladesh?",
+    "answer": "Yes. Our team is based in Dhaka, Bangladesh, and we work with local and international startups, SaaS companies, agencies and businesses. Communication happens over email, chat and video calls."
+  },
+  {
+    "question": "How do we start a project?",
+    "answer": "Send us a message through the Start a Project form with a short description of what you need. We review it and reply by email to arrange a discovery conversation."
+  },
+  {
+    "question": "How is pricing determined?",
+    "answer": "Each project is scoped individually based on features, integrations, platforms and timeline. After discovery we share a proposal with the scope and a cost estimate."
+  },
+  {
+    "question": "Can you take over or extend an existing product?",
+    "answer": "Yes. We can review an existing codebase or design, recommend next steps and continue development, integrations or maintenance from there."
+  },
+  {
+    "question": "Do you provide support after launch?",
+    "answer": "Yes. We offer ongoing development and maintenance so your product keeps improving after it goes live. Existing clients can also use the Support page to report issues."
+  }
+]

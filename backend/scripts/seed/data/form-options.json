@@ -1,0 +1,124 @@
+{
+  "inquiry_topic": [
+    {
+      "value": "new-project",
+      "label": "Start a new project"
+    },
+    {
+      "value": "redesign",
+      "label": "Redesign or improve an existing product"
+    },
+    {
+      "value": "ongoing-development",
+      "label": "Ongoing development / dedicated team"
+    },
+    {
+      "value": "consultation",
+      "label": "Consultation or technical advice"
+    },
+    {
+      "value": "partnership",
+      "label": "Agency or white-label partnership"
+    },
+    {
+      "value": "other",
+      "label": "Other"
+    }
+  ],
+  "budget_range": [
+    {
+      "value": "under-5k",
+      "label": "Under $5,000"
+    },
+    {
+      "value": "5k-15k",
+      "label": "$5,000 – $15,000"
+    },
+    {
+      "value": "15k-30k",
+      "label": "$15,000 – $30,000"
+    },
+    {
+      "value": "30k-60k",
+      "label": "$30,000 – $60,000"
+    },
+    {
+      "value": "60k-plus",
+      "label": "$60,000+"
+    },
+    {
+      "value": "not-sure",
+      "label": "Not sure yet"
+    }
+  ],
+  "timeline": [
+    {
+      "value": "asap",
+      "label": "As soon as possible"
+    },
+    {
+      "value": "1-3-months",
+      "label": "Within 1–3 months"
+    },
+    {
+      "value": "3-6-months",
+      "label": "Within 3–6 months"
+    },
+    {
+      "value": "6-plus-months",
+      "label": "6+ months"
+    },
+    {
+      "value": "flexible",
+      "label": "Flexible"
+    },
+    {
+      "value": "not-sure",
+      "label": "Not sure yet"
+    }
+  ],
+  "contact_method": [
+    {
+      "value": "email",
+      "label": "Email"
+    },
+    {
+      "value": "phone",
+      "label": "Phone call"
+    },
+    {
+      "value": "whatsapp",
+      "label": "WhatsApp"
+    },
+    {
+      "value": "video-call",
+      "label": "Video call"
+    }
+  ],
+  "support_category": [
+    {
+      "value": "bug",
+      "label": "Bug or error"
+    },
+    {
+      "value": "access",
+      "label": "Login or access issue"
+    },
+    {
+      "value": "downtime",
+      "label": "Website / app is down"
+    },
+    {
+      "value": "change-request",
+      "label": "Change request"
+    },
+    {
+      "value": "billing",
+      "label": "Billing question"
+    },
+    {
+      "value": "other",
+      "label": "Other"
+    }
+  ]
+}

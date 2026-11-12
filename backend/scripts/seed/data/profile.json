@@ -1,0 +1,15 @@
+{
+  "agency_name": "Qmona Agency",
+  "short_name": "Qmona",
+  "tagline": "Product design & software development",
+  "description": "Qmona is a Bangladesh-based agency that designs and builds websites, SaaS platforms, business systems, mobile apps and AI products for startups and growing businesses worldwide.",
+  "email": "qmonaagency@gmail.com",
+  "support_email": "qmonaagency@gmail.com",
+  "address": "House #2, Block #K (Main Road), South Banasree, Dhaka 1219, Bangladesh",
+  "city": "Dhaka",
+  "country": "Bangladesh",
+  "timezone_label": "Asia/Dhaka (GMT+6)",
+  "default_meta_title": "Qmona Agency — Product Design & Software Development",
+  "default_meta_description": "Qmona is a Bangladesh-based agency designing and building websites, SaaS platforms, business systems, mobile apps and AI products for teams worldwide.",
+  "privacy_notice": "I agree that Qmona may store and use the details I submit to respond to my request, as described in the Privacy Policy."
+}
